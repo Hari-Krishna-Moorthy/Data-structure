@@ -7,7 +7,6 @@ int ternary_search(int *arr, int left, int right, int find ) {
     int mid1 = left + (right - left)/3;
     int mid2 = right - (right - left)/3;
 
-    printf("%d %d\n" , mid1, mid2);
     if(find == arr[mid1]) 
         return mid1;
     else if (find == arr[mid2])

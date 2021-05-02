@@ -100,7 +100,7 @@ int main() {
                 scanf("%d", &index);
                 insert(&arr, data, index);
                 break;
-            case 6:
+            case 5:
                 return 0;
                 break;
             default :
